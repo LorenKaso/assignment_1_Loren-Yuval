@@ -1,0 +1,32 @@
+{
+  "test_preprocess": {
+    "vocab_length": 1802
+  },
+  "test_lm": {
+    "english_2_gram_length": 724,
+    "english_3_gram_length": 7931,
+    "french_3_gram_length": 7972,
+    "spanish_3_gram_length": 8035
+  },
+  "test_eval": {
+    "en_en": 26.559568227964533,
+    "en_fr": 58.70429084550254,
+    "en_tl": 70.73111418633053,
+    "en_nl": 60.19801588605974
+  },
+  "test_match": {
+    "en_en_3": 26.559568227964533,
+    "en_tl_3": 70.73111418633053,
+    "en_nl_3": 60.19801588605974
+  },
+  "test_generate": {
+    "english_1_gram": "IIuslune lgnt hi5ekMn",
+    "english_2_gram": "I am5.\u30b8\ud83c\uddec\ud83c\udf7e\uce74\u2506\ud83e\udd80\u0e41\ud50c\ud83d\udc8f\uff53\uc0e4\ub9e8\ufe0e\u00d6\ub4f1\ud83d\udd75\ud83d\udc4f\u30ad",
+    "english_3_gram": "I am\u2491\ud83c\udf42\ud83c\ude35\ud83c\uddec\ud83c\udf7e\u8bb8\u2506\ud83e\udd80\u0e41\ud50c\ud83d\udc8f\uff53\uc0e4\ub9e8\ufe0e\u00d6\ub4f1\ud83d\udd75\ud83d\udc4f\ud83d\udc29",
+    "english_4_gram": "I Love\u2714\ud83c\udf42\ud83c\ude35\ud83c\uddec\ud83c\udf7e\u8bb8\u2506\ud83e\udd80\u0e41\ud50c\ud83d\udc8f\uff53\uc0e4\ub9e8\ufe0e\u00d6\ub4f1\ud83d\udd75\ud83d\udc4f\ud83d\udc29",
+    "spanish_2_gram": "Soy s:\ud83d\ude39\ubcf5\u8bb8\u2506\ud83e\udd80\u0e41\ud50c\ud83d\udc8f|8\ud83e\udd5e\ufe0e\u00d6\ub4f1\ud83d\udd75\ud83d\udc4f\ud83d\ude43",
+    "spanish_3_gram": "Soy\u30fd\ud83c\udf42\ud83c\ude35\ud83c\uddec\ud83c\udf7e\u8bb8\u2506\ud83e\udd80\u0e41\ud50c\ud83d\udc8f\uff53\uc0e4\ub9e8\ufe0e\u00d6\ub4f1\ud83d\udd75\ud83d\udc4f\ud83d\udc29",
+    "french_2_gram": "Je suis s:\u272d\ud83c\udf7e\u8bb8\u2506\ud83e\udd80\u0e41\u062e\ud83d\udc8f|\u0e02\ub9e8\ufe0e;\ud83d\udcd3\ud83d\udd75\ud83d\udc4f\ud83d\ude43",
+    "french_3_gram": "Je suis qu\u8e0a\ud83c\udf7e\u8bb8\u2506\ud83e\udd80\u0e41\ud50c\ud83d\udc8f\uff53\uc0e4\ub9e8\ufe0e\u00d6\ub4f1\ud83d\udd75\ud83d\udc4f\ud83d\udc29"
+  }
+}
